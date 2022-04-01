@@ -1,8 +1,9 @@
 body{
     text-align: center;
-    color: black;
+    color: #a9a9ab;
     line-height: 2;
     font-family: 'Sora', sans-serif;
+    background-color: #292929;
 }
 .top-container{
     padding: 200px;
@@ -29,11 +30,11 @@ h1:hover{
 }
 
 h2{
-    color: deepskyblue;
+    color: whitesmoke;
 }
 h3{
     text-align: left;
-    color: deepskyblue;
+    color: whitesmoke;
 }
 p{
     text-align: justify;
@@ -42,10 +43,9 @@ p{
 
 }
 .webs-desc{
-    text-align: center;
+    margin: auto;
     color: white;
     font-weight: bold;
-    font-size: 14pt;
 }
 
 img.porto-img{
@@ -85,18 +85,16 @@ img.porto-img:hover, .hobi-1-img:hover, .hobi-2-img:hover, .hobi-3-img:hover, .p
 
 /*bottom container*/
 .bottom-container{
-    background:linear-gradient(to top,deepskyblue 13%, blueviolet 90%);
-
-    padding:20px;
-    background-color: deepskyblue;
-    border-radius: 20px;
-}
-.bottom-container h2{
     color: whitesmoke;
     border-radius: 20xp;
+    padding:20px;
+    background-color: #2c3340;
+    border-radius: 20px;
 }
+
 .contact-desc{
     text-align: center;
+    color: #798db3;
 }
 footer{
     padding: 3px;
@@ -131,13 +129,13 @@ footer{
     top:1px;
 }
 hr{
-    border-top: 5px dashed deepskyblue;
+    border-top: 5px dashed #2c3340;
     width: 80px;
     margin-top: 50px;
     margin-bottom: 5px:;
 }
 
-ul li {
+ul li{
     display: inline-block;
     text-decoration: none;
     position: relative;
@@ -156,5 +154,3 @@ ul li a{
     margin-left: 7px;
     border-radius: 10px;
 }
-
-
